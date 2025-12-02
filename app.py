@@ -67,7 +67,7 @@ if st.session_state.page == 'Home':
     # Logo and Title side-by-side
     header_col1, header_col2 = st.columns([1, 3])
     with header_col1:
-        st.image("C:/Users/justi/.gemini/antigravity/brain/91b4dc8e-de61-4747-ae44-6770b408eef2/opamp_lab_logo_1764687325820.png", width=180)
+        st.image("images/opamp_lab_logo_1764687325820.png", width=180)
     with header_col2:
         st.markdown("""
         <div style="padding-top: 20px;">
@@ -364,19 +364,19 @@ elif st.session_state.page == 'Lab':
         st.subheader("Circuit Diagram")
         
         if config_type == "Inverting":
-            st.image("C:/Users/justi/.gemini/antigravity/brain/91b4dc8e-de61-4747-ae44-6770b408eef2/schematic_inverting_amplifier_1764694375132.png", width=600)
+            st.image("images/schematic_inverting_amplifier_1764694375132.png", width=600)
         elif config_type == "Non-Inverting":
-            st.image("C:/Users/justi/.gemini/antigravity/brain/91b4dc8e-de61-4747-ae44-6770b408eef2/schematic_non_inverting_amplifier_1764694394195.png", width=600)
+            st.image("images/schematic_non_inverting_amplifier_1764694394195.png", width=600)
         elif config_type == "Voltage Follower":
-            st.image("C:/Users/justi/.gemini/antigravity/brain/91b4dc8e-de61-4747-ae44-6770b408eef2/schematic_voltage_follower_1764694412094.png", width=600)
+            st.image("images/schematic_voltage_follower_1764694412094.png", width=600)
         elif config_type == "Integrator":
-            st.image("C:/Users/justi/.gemini/antigravity/brain/91b4dc8e-de61-4747-ae44-6770b408eef2/schematic_integrator_1764694633362.png", width=600)
+            st.image("images/schematic_integrator_1764694633362.png", width=600)
         elif config_type == "Differentiator":
-            st.image("C:/Users/justi/.gemini/antigravity/brain/91b4dc8e-de61-4747-ae44-6770b408eef2/schematic_differentiator_1764694650462.png", width=600)
+            st.image("images/schematic_differentiator_1764694650462.png", width=600)
         elif config_type == "Summing Amplifier":
-            st.image("C:/Users/justi/.gemini/antigravity/brain/91b4dc8e-de61-4747-ae44-6770b408eef2/schematic_summing_amplifier_1764694666473.png", width=600)
+            st.image("images/schematic_summing_amplifier_1764694666473.png", width=600)
         elif config_type == "Difference Amplifier":
-            st.image("C:/Users/justi/.gemini/antigravity/brain/91b4dc8e-de61-4747-ae44-6770b408eef2/uploaded_image_1764694863206.png", width=600)
+            st.image("images/uploaded_image_1764694863206.png", width=600)
         
         # Status info
         info_col1, info_col2 = st.columns(2)
